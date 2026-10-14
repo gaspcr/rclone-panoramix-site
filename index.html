@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>rclone panoramix</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"></head><body>
+<h1>rclone panoramix</h1>
+<p><strong>rclone panoramix</strong> is a personal, non-commercial configuration of the open-source
+<a href="https://rclone.org">rclone</a> command-line tool. It is used by a single researcher to copy
+astronomical data products (reduced spectral data cubes, coadds, quality-control plots and reports) from a
+university computing cluster to <em>his own</em> Google Drive, so that collaborators can access them.</p>
+<h2>What it does</h2>
+<ul>
+<li>Uploads files that the owner selects from the cluster to folders in the owner's Google Drive.</li>
+<li>Lists and checksums those folders to verify that transfers completed correctly.</li>
+<li>Renames or moves files the owner previously uploaded, at the owner's request.</li>
+</ul>
+<p>It is not a public service: there is no sign-up, no other users, and no web interface. The Google OAuth
+client exists only so that rclone on the cluster can authenticate as the owner.</p>
+<p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a></p>
+<footer>Questions: open an issue in this site's GitHub repository.</footer>
+</body></html>
